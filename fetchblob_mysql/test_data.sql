@@ -1,0 +1,11 @@
+use fetchblob;
+drop table test;
+create table test (id int(7) UNSIGNED AUTO_INCREMENT PRIMARY KEY, content MEDIUMBLOB);
+INSERT INTO test (id, content) VALUES (1, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (2, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (3, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (4, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (5, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (6, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (7, 'BLOBBLOBBLOB');
+INSERT INTO test (id, content) VALUES (8, 'BLOBBLOBBLOB');
